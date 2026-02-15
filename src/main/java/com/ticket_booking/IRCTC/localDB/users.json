@@ -1,0 +1,72 @@
+[
+  {
+    "name": "rana",
+    "password": "123",
+    "hashedPassword": "$2a$10$/8Zub82YXGFmH8G479K1VObyh05gmH02TXtTurU86hakp8F.5hn0i",
+    "ticketsBooked": [
+      {
+        "ticketId": "7215aa8c-c678-49a0-815b-fb95e0eae19b",
+        "userId": "865037b0-761f-4741-ad69-657429325a28",
+        "source": "bangalore",
+        "destination": "jaipur",
+        "dateOfTravel": "2026-02-25",
+        "train": {
+          "train_id": "bacs",
+          "train_no": "12345",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 1, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "bangalore": "13:50:00",
+            "jaipur": "13:50:00",
+            "delhi": "13:50:00"
+          },
+          "stations": ["bangalore", "jaipur", "delhi"],
+          "trainInfo": "Train ID: bacs Train No: 12345"
+        },
+        "rowNumber": 1,
+        "seatNumber": 3,
+        "ticketInfo": "Ticket ID: 7215aa8c-c678-49a0-815b-fb95e0eae19b belongs to User 865037b0-761f-4741-ad69-657429325a28 from bangalore to jaipur on 2026-02-25"
+      }
+    ],
+    "userId": "865037b0-761f-4741-ad69-657429325a28"
+  },
+  {
+    "name": "anik",
+    "password": "2005",
+    "hashedPassword": "$2a$10$eWo.rKzpOQGuhjeEvHTXAuIW2/6l1N7G4L5PPhZAOZOytVnBRRrXO",
+    "ticketsBooked": [
+      {
+        "ticketId": "a870cc40-5664-46e4-ad39-e94d58abb842",
+        "userId": "a73f8205-d37a-46f7-aaef-39285f46d746",
+        "source": "jaipur",
+        "destination": "delhi",
+        "dateOfTravel": "2026-02-21",
+        "train": {
+          "train_id": "bacs",
+          "train_no": "12345",
+          "seats": [
+            [0, 1, 0, 0, 0, 0],
+            [0, 0, 0, 1, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "station_times": {
+            "bangalore": "13:50:00",
+            "jaipur": "13:50:00",
+            "delhi": "13:50:00"
+          },
+          "stations": ["bangalore", "jaipur", "delhi"],
+          "trainInfo": "Train ID: bacs Train No: 12345"
+        },
+        "rowNumber": 0,
+        "seatNumber": 1,
+        "ticketInfo": "Ticket ID: a870cc40-5664-46e4-ad39-e94d58abb842 belongs to User a73f8205-d37a-46f7-aaef-39285f46d746 from jaipur to delhi on 2026-02-21"
+      }
+    ],
+    "userId": "a73f8205-d37a-46f7-aaef-39285f46d746"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "ticketId": "a870cc40-5664-46e4-ad39-e94d58abb842",
+    "userId": "a73f8205-d37a-46f7-aaef-39285f46d746",
+    "source": "jaipur",
+    "destination": "delhi",
+    "dateOfTravel": "2026-02-21",
+    "train": {
+      "train_id": "bacs",
+      "train_no": "12345",
+      "seats": [
+        [0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0]
+      ],
+      "station_times": {
+        "bangalore": "13:50:00",
+        "jaipur": "13:50:00",
+        "delhi": "13:50:00"
+      },
+      "stations": ["bangalore", "jaipur", "delhi"],
+      "trainInfo": "Train ID: bacs Train No: 12345"
+    },
+    "rowNumber": 0,
+    "seatNumber": 1,
+    "ticketInfo": "Ticket ID: a870cc40-5664-46e4-ad39-e94d58abb842 belongs to User a73f8205-d37a-46f7-aaef-39285f46d746 from jaipur to delhi on 2026-02-21"
+  }
+]
