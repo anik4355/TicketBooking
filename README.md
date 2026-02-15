@@ -1,13 +1,15 @@
-# 🔐 Java User Authentication (Terminal Based)
+# 🎟️ User Authentication & Ticket Booking System (Terminal Based)
 
-Simple terminal-based backend project for user authentication using Java Streams, Optional, and BCrypt.
+A Java terminal-based backend project that implements user authentication along with ticket booking and cancellation functionality.
 
 ## 🚀 Features
 
-- Username validation (case-insensitive)
+- User login authentication
 - Password hashing using BCrypt
-- Java Stream filtering
-- Safe handling using Optional
+- Ticket booking
+- Ticket cancellation
+- Java Streams & Optional for clean logic
+- No Spring Boot / No Web Server
 
 ## 🛠️ Tech Stack
 
@@ -15,7 +17,7 @@ Simple terminal-based backend project for user authentication using Java Streams
 - Maven
 - Spring Security Crypto (BCrypt)
 
-## 📦 Dependency (Maven)
+## 📦 Maven Dependency
 
 ```xml
 <dependency>
